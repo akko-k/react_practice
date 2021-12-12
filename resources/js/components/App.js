@@ -5,7 +5,10 @@ import CloudDownloadIcon from "@material-ui/icons/CloudDownload";
 
 function App() {
     function handleDownload() {
-        console.log("hello!");
+        setSearchName(event.target.value);
+        setSortId(event.target.value);
+        setSortMode(event.target.value);
+        setOutputMode(event.target.value);
     }
     return (
         <div className="container">

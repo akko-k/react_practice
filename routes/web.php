@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('download', 'CsvController@download')->name('download.index');
+Route::get('sample', 'SampleController@index')->name('sample');
