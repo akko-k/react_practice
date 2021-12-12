@@ -19,6 +19,8 @@ function App() {
                             startIcon={<CloudDownloadIcon />}
                             color="primary"
                             onClick={handleDownload}
+                            target="_blank"
+                            href="download"
                         >
                             CSV Download
                         </Button>
